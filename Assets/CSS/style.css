@@ -1,0 +1,35 @@
+.dresses{
+    border: 3px solid darkslateblue;
+    text-align: left;
+    font-family: cursive;
+    background-color: aquamarine;
+    margin: 20px;
+    padding: 20px;
+}
+.cars{
+    border:black;
+    border-radius:20px;
+    text-align: match-parent;
+    font-family: "serif";
+    background-color: gold;
+    margin: 15px;
+    padding: 10px;
+}
+.FRUITS{
+    border: red;
+    border-radius: 10px;
+    text-align: center;
+    font-family: cursive;
+    background-color: darkorchid;
+    margin: inherit;
+    padding: 15px;
+}
+#computers{
+    border: darkcyan;
+    border-radius:15px;
+    text-align:center;
+    font-family: Chilanka;
+    background-color: brown;
+    margin: 15px;
+    padding: 10px;
+}

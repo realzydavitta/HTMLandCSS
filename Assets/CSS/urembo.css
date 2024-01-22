@@ -1,0 +1,27 @@
+table{
+    width: 100%;
+    border-collapse: collapse;
+    margin: 10px;
+}
+td,th{
+  border: 5px  solid black;
+    padding: 10px;
+    font-size: smaller;
+}
+tr:nth-child(even){
+    background-color: aquamarine;
+}
+th{
+    font-size: large;
+    font-family: Chandas;
+    color:crimson;
+}
+h2{
+    color:blue;
+    text-align: center;
+    font-family: cursive;
+}
+body{
+    background-image: url("Assets/image/islands4.jpeg");
+
+}

@@ -1,0 +1,63 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>forms</title>
+</head>
+<link rel="stylesheet" href="Assets/CSS/formstyle.css">
+<body>
+<div id="form-container">
+    <div class="form-group">
+        <label for="name">Name:</label>
+        <input type="text"id="name"required>
+
+    <div class="form-group"></div>
+    <label for="email">Email Address:</label>
+    <input type="email"id="email"name="email"required>
+</div>
+<div class="form-group">
+    <label for="password">Password:</label>
+    <input type="text"id="password"name="password"required>
+</div>
+<div class="form-group">
+    <label for="gender">Gender</label>
+    <select name="gender" id="gender">
+    <option value="male">Male</option>
+    <option value="female">Female</option>
+    <option value="other">Other</option>
+    </select>
+</div>
+    <div class="form-group">
+        <label for="">Interest</label>
+        <input type="checkbox"id="interest1"name="interest1">
+        <label for="interest1">Coding</label>
+         <input type="checkbox"id="interest2"name="interest2">
+        <label for="interest2">Swimmimg</label>
+        <input type="checkbox"id="interest3"name="interest3">
+        <label for="interest3">Cooking</label>
+        <input type="checkbox"id="interest4"name="interest4">
+        <label for="interest4">Travelling</label>
+        <div class="form-group">
+            <label>choose a proggraming language</label>
+            <input type="radio"id="lang1"name="lang1"value="Kotlin">
+            <label for="lang1">Kotlin</label>
+            <label for="lang2">Python</label>
+            <input type="radio"id="lang2"name="lang2"value="Python">
+            <label for="lang3">java</label>
+            <input type="radio"id="lang3"name="lang3"value="java">
+        </div>
+        <div class="form-group">
+            <label for="message">Additional Information</label>
+            <textarea name="message"id="message"></textarea>
+        </div>
+        <div class="form-group">
+            <button type="submit">Submit</button>
+        </div>
+
+    </div>
+</div>
+</body>
+</html>

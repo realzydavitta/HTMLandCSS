@@ -1,0 +1,123 @@
+<!doctype html>
+<html lang="en">
+<head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Forms</title>
+</head>
+<style>
+    h2 {
+        color: darkred;
+        font-style: italic;
+        font-size: large;
+    }
+    body{
+        background-image: url("Assets/image/img.png");
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-blend-mode:darken;
+        background-position: center;
+        backface-visibility: hidden;
+    }
+</style>
+<style>
+    ul{
+        list-style-type: none;
+        margin:0 ;
+        padding:15px;
+        overflow:hidden ;
+        background-color: #14ec14;
+
+    }
+    li{
+        float: left;
+    }
+    li a{
+        padding:15px ;
+        color: blue;
+        display: block;
+        text-decoration: none;
+    }
+    li a:hover{
+        background-color: black;
+    }
+    body{
+        background-color: white;
+        background-image: url("Assets/image/img.png");
+        background-size: cover;
+        background-repeat: repeat-x;
+    }
+    h1 {
+        text-align: center;
+        color: red;
+        font-family: "DejaVu Sans";
+        font-size:50px ;
+
+    }
+
+</style>
+<body>
+<ul>
+    <li><a href="#">Personal</a></li>
+    <li><a href="#">Business</a></li>
+    <li><a href="#">About Us</a></li>
+    <li><a href="#">Investor Relation</a></li>
+    <li><a href="#">Fraud Awareness</a></li>
+    <li><a href="#">Media</a></li>
+    <li><a href="#">Career</a></li>
+</ul>
+
+
+<h2>EMOBILIS REGISTRATION FORM</h2>
+
+<form action="">
+    <label for="Fname">First Name</label>
+    <style>
+        label{
+            color: blue;
+        }
+        input{
+            color: black;
+            border:  2px solid darkred;
+        }
+
+    </style>
+    <input type="text"id="fname"name="jina"required placeholder="Enter Name"><br><br>
+    <label for="lname">Last Name</label>
+    <input type="text"id="lname"name="jina2"required placeholder="Enter Name "><br><br>
+    <label for="email">Email</label>
+    <input type="email"id="email"name="baruapepe"required placeholder="Enter Email"><br><br>
+    <label for="phone">Mobile Number</label>
+    <input type="text"id="phone"name="nambari"required placeholder="Enter Phonenumber"><br><br>
+    <label for="female">Female</label>
+    <input type="radio"id="female"name="gender">
+    <label for="male">Male</label>
+    <input type="radio"id="male"name="gender">
+    <label for="others">Custom</label>
+    <input type="radio"id="others"name="gender"><br><br>
+    <label for="course">Course Taken</label>
+    <select name="course" id="course">
+        <option value="react js">React JS</option>
+        <option value="Android">Android</option>
+        <option value="cyber">Cyber Security</option>
+        <option value="robotics">Robotics</option>
+        <option value="web development">Web Development</option>
+        <option value="icdl">ICDL</option>
+    </select><br><br>
+    <label for="upload image">Upload Image</label>
+    <input type="file"id="upload image"name="upload image"><br><br>
+    <label for="dob">Date of Birth</label>
+    <input type="date"id="dob"name="tarehe"><br><br>
+    <label for="pass">password</label>
+    <input type="password"id="pass"name="Neno siri"><br><br>
+    <input type="submit"value="REGISTER">
+    
+</form>
+
+
+</body>
+
+</html>
